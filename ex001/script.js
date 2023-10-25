@@ -20,4 +20,3 @@ const insertParagraph = (text) => {
 
 insertTitle("Aurora | Find Artists App")
 insertParagraph("Aurora is an application for find your favorite artists and know more about them!")
-console.log("worked")
