@@ -18,5 +18,9 @@ const insertParagraph = (text) => {
     console.log(text)
 }
 
+//function for console loging user's inserted data
+
+//function for validating data
+
 insertTitle("Aurora | Find Artists App")
 insertParagraph("Aurora is an application for find your favorite artists and know more about them!")
