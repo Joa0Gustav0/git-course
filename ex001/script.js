@@ -19,8 +19,13 @@ const insertParagraph = (text) => {
 }
 
 //function for console loging user's inserted data
+const insertUserData = (username, password) => {
+    console.log("Hello, " + username + ".")
+    console.log("Your password is: " + password)
+}
 
 //function for validating data
 
-insertTitle("Aurora | Find Artists App")
-insertParagraph("Aurora is an application for find your favorite artists and know more about them!")
+insertTitle("List | Listing Application")
+insertParagraph("List is an application for listing several stuffs. List is used by many corporations.")
+insertUserData("Jeffrey", "Jef3780998frey")
