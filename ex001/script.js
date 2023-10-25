@@ -19,6 +19,10 @@ const insertParagraph = (text) => {
 }
 
 //function for console loging user's inserted data
+const insertUserData = (name, password) => {
+    console.log("Hello, " + name + ".")
+    console.log("Your password is: " + password)
+}
 
 //function for validating data
 
