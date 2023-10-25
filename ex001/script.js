@@ -19,13 +19,18 @@ const insertParagraph = (text) => {
 }
 
 //function for console loging user's inserted data
+
+var insertedName
+var insertedPassw
+
 const insertUserData = (username, password) => {
+    insertedName = username.length
+    insertedPassw = password.length
+
     console.log("Hello, " + username + ".")
     console.log("Your password is: " + password)
 }
 
-//function for validating data
-
 insertTitle("List | Listing Application")
 insertParagraph("List is an application for listing several stuffs. List is used by many corporations.")
-insertUserData("Jeffrey", "Jef3780998frey")
+insertUserData("Jeff", "Jef3780998frey")
