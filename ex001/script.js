@@ -19,14 +19,7 @@ const insertParagraph = (text) => {
 }
 
 //function for console loging user's inserted data
-
-var insertedName
-var insertedPassw
-
 const insertUserData = (username, password) => {
-    insertedName = username.length
-    insertedPassw = password.length
-
     console.log("Hello, " + username + ".")
     console.log("Your password is: " + password)
 }
